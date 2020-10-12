@@ -137,7 +137,7 @@ const ListProducts = ({
                     <SpanListTd> {p.name} </SpanListTd>
                     <SpanListTd> {p.price_suggest} </SpanListTd>
                     <SpanListTd>
-                      <input style={{ width: '40px' }} name="qtd" />
+                      <input style={{ width: '60px' }} name="qtd" />
                     </SpanListTd>
                   </ContainerSpan>
                 ))}
