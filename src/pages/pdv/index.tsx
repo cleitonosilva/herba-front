@@ -117,10 +117,10 @@ const ListProducts = ({
             <DivTabela>
               <TableHead>
                 <ContainerSpan>
-                  <SpanListTh>Produto</SpanListTh>
+                  <SpanListTh>Produtos</SpanListTh>
                 </ContainerSpan>
                 <ContainerSpan>
-                  <SpanListTh>Preço</SpanListTh>
+                  <SpanListTh>Preços</SpanListTh>
                 </ContainerSpan>
                 <ContainerSpan>
                   <SpanListTh>Qtd.</SpanListTh>
