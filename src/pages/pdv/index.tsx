@@ -28,7 +28,8 @@ import {
   TableRow,
   SpanListTd,
   TableRowPdv,
-  ContainerTabelaPdv
+  ContainerTabelaPdv,
+  DivListTdInput
 } from './styles'
 import { NavbarBrand, UncontrolledDropdown, DropdownToggle } from 'reactstrap'
 import apiService from '../../services/apiService'
@@ -135,10 +136,10 @@ const ListProducts = ({
                 {products.map((p: Product) => (
                   <ContainerSpan key={p.id}>
                     <SpanListTd> {p.name} </SpanListTd>
-                    <SpanListTd> {p.price_suggest} </SpanListTd>
-                    <SpanListTd>
-                      <input style={{ width: '60px' }} name="qtd" />
-                    </SpanListTd>
+                    <DivListTdInput> {p.price_suggest} </DivListTdInput>
+                    <DivListTdInput>
+                      <input style={{ width: '40px' }} name="qtd" />
+                    </DivListTdInput>
                   </ContainerSpan>
                 ))}
               </TableRowPdv>

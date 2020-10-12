@@ -568,7 +568,7 @@ export const SpanListTd = styled.span`
 
   @media (min-width: 768px) {
     background: #282741;
-    width: 100%;
+    width: 40%;
     height: 100%;
     display: flex;
     color: #fff;
@@ -578,6 +578,34 @@ export const SpanListTd = styled.span`
     justify-content: center;
   }
 `
+
+export const DivListTdInput = styled.div`
+  @media (max-width: 767px) {
+    background: #282741;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 10px;
+  }
+
+  @media (min-width: 768px) {
+    background: #282741;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+`
+
 export const SpanListTh = styled.span`
   @media (max-width: 767px) {
     background: #282741;
